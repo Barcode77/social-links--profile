@@ -1,0 +1,109 @@
+:root{
+    --main-color800: hsl(0, 0%, 12%);
+    --second-main-color700: hsl(0, 0%, 20%);
+    --third-main-color900:hsl(0, 0%, 8%);
+    --secondary-color:hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    font-size: 62.5%;
+    --font-paragraph: 1.4rem;
+    --font-weight400: 400;
+    --font-weight600:600;
+    --font-weight700:700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Inter";
+    src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+
+/*--------------HTML------------------ */
+html {
+    height: 100%;
+}
+
+
+/*--------------BODY------------------ */
+body {
+    height: 100%;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Inter";
+
+}
+
+/*-----------BODY SECTION -----------------*/
+.body {
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/*----------- HEADER -----------------*/
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    height: 20px;
+}
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 0.9rem;
+    margin: 5px 0 20px;
+}
+p {
+    color: hsl(0, 0%, 100%);
+}
+
+/*-------------Main--------------**/
+main {
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+span {
+    margin: 10px 0;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    color: white;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.attribution {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
