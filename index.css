@@ -49,25 +49,29 @@ body {
     justify-content: center;
     border-radius: 10px;
     padding: 20px;
+    width: 280px;
 }
 
 /*----------- HEADER -----------------*/
 img {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
+    margin: 15px;
 }
 h1 {
     color: hsl(0, 0%, 100%);
-    height: 20px;
+    font-size: 1.7rem;
 }
 h2 {
     color: hsl(75, 94%, 57%);
-    font-size: 0.9rem;
+    font-size:  1rem;
     margin: 5px 0 20px;
 }
 p {
     color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    margin-bottom: 10px;
 }
 
 /*-------------Main--------------**/
@@ -78,22 +82,30 @@ main {
 .links {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 span {
-    margin: 10px 0;
     background-color: hsl(0, 0%, 20%);
     border-radius: 5px;
-    height: 30px;
     width: 100%;
     color: white;
     font-weight: 700;
+    font-size: 1.1rem;
+    margin: 5px 0;
     padding: 10px 0;
 }
-.attribution {
-    color: white;
+span:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: var(--third-main-color900);
 }
 
+.attribution {
+    color: white;
+    margin: 20px;
+}
+.attribution a{
+    text-decoration: none
+;
+}
 
 
 
