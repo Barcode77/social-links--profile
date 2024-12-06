@@ -96,12 +96,15 @@ span {
 span:hover{
     background-color: hsl(75, 94%, 57%);
     color: var(--third-main-color900);
+    transition-property: background-color;
+    transition-duration: 3s;
+   
 }
-
 .attribution {
     color: white;
     margin: 20px;
-}
+}lmlml
+
 .attribution a{
     text-decoration: none
 ;
